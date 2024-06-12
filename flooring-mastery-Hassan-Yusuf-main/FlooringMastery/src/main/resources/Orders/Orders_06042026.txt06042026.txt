@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Jack,TX,4.45,Wood,341.00,5.15,4.75,1756.15,1619.75,135.04,3510.94

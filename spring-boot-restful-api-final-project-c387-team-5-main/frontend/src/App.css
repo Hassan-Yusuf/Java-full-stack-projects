@@ -1,0 +1,94 @@
+.App{ 
+  min-height: 100vh; 
+  background-image: url(/public/blurred.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+  font-family: 'Arial', sans-serif;
+  } 
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  color: white;
+  z-index: 999;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a,
+.nav-links button {
+  font-size: 26px;
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  background-color: transparent; 
+  border: none;
+}
+
+.nav-links button {
+  padding: 8px 15px;
+  font-size: 26px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  margin-right: 40px;
+  cursor: pointer; 
+}
+
+.nav-links button:hover {
+  background-color: #666; 
+}
+
+nav img{
+  padding-top: 4px;
+  height: 64px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.search-form{ 
+margin-top: 100px;
+min-height: 10vh; 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+} 
+.search-bar{ 
+width: 50%; 
+border:none; 
+padding: 13px; 
+border-radius: 5px; 
+box-shadow: 2px 5px #979b91; 
+} 
+.search-button{ 
+background: #4da1ab; 
+border: 2px solid white; 
+border-radius: 8px; 
+padding: 10px 20px; 
+color: white; 
+font-size: larger; 
+margin: 0 0 0 10px; 
+} 
+.search-button:hover { 
+background-color:#fa709a ; 
+} 
+.recipes{ 
+display: flex; 
+justify-content: space-around; 
+flex-wrap: wrap; 
+} 
+  

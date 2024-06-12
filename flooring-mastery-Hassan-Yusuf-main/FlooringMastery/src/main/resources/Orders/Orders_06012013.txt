@@ -1,0 +1,5 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Ada Lovelace,CA,25.00,Tile,249.00,3.50,4.15,871.50,1033.35,476.21,2381.06
+2,Hassan Yusuf,CA,25.00,Wood,340.00,5.15,4.75,1751.0000,1615.0000,841.500000,4207.500000
+3,Hassan Yusuf,CA,25.00,Wood,360.00,5.15,4.75,1854.00,1710.00,891.00,4455.00
+4,Zainab Yusuf,CA,25.00,Wood,356.00,5.15,4.75,1833.40,1691.00,881.10,4405.50

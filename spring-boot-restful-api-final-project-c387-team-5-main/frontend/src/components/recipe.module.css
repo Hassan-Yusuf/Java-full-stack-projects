@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.recipe {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(63, 60, 60);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.6);
+    align-items: center;
+    width: calc(33.33% - 80px);
+    max-width: calc(33.33% - 40px);
+    font-family: 'Arial', sans-serif;
+}
+
+.image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+
+.saveButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.saveButton i {
+    color: red;
+    font-size: 20px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.displayText {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.toggleButton {
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.95em;
+}
+
+.toggleButton:hover {
+    background-color: #0056b3;
+}
+
+.ingredients {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    list-style-type: none;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 90%;
+}
+
+.ingredients li {
+    margin-bottom: 3px;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.clearButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    margin-left: 20px   ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.clearButton:hover {
+    background-color: #d32f2f;
+}
+
+.noSavedRecipes {
+    text-align: center; /* Center align the text */
+}
+
+.noSavedRecipes p {
+    font-size: 1.5em; /* Increase font size */
+}

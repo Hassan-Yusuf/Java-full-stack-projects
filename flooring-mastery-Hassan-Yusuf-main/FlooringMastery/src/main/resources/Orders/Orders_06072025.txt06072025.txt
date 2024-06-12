@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Hassan Yusuf,CA,25.00,Wood,351.00,5.15,4.75,1807.65,1667.25,868.73,4343.63
